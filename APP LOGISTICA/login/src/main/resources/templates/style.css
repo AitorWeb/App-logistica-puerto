@@ -1,0 +1,27 @@
+/* Estilo para el body */
+body {
+    display: flex;
+    justify-content: center; /* Alineación horizontal */
+    align-items: center;     /* Alineación vertical */
+    height: 100vh;           /* Altura del body igual a la altura de la ventana */
+    margin: 0;               /* Eliminar márgenes del body */
+    background-color: #2E86C1;
+}
+
+/* Estilo para el contenedor */
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    box-shadow: 3px 3px 10px #333;
+}
+
+h2{
+    text-align: center;
+}
+button.btn.btn-primary{
+    display: block;
+    margin: 0 auto; /* Alinea horizontalmente el botón */
+}
